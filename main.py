@@ -13,7 +13,7 @@ def test_bucketing_by_number_of_cycles(count):
     print (
          lowCount,
          mediumCount,
-          highCount
+         highCount
         )
 
 
