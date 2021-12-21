@@ -3,9 +3,9 @@ def test_bucketing_by_number_of_cycles(count):
     mediumCount = 0
     highCount =0 
     print("Counting batteries by usage cycles...\n");
-    if count[i] <150:
+    if count <150:
         lowCount +=1
-    elif ((count[i] >150) and (count[i]<649)):
+    elif ((count >150) and (count<649)):
         mediumCount +=1
     else:
         highCount +=1
